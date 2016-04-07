@@ -1,69 +1,11 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="shortcut icon" href="icon.ico">
-<title>PR Search</title>
-<style type="text/css">
-* {
-	margin: 0;
-	padding: 0;
-}
-body {
-	font-family: Arial,"微软雅黑";
-	text-align: center;
-	background-image: url(https://unsplash.imgix.net/photo-1414005987108-a6d06de8769f?q=75&fm=jpg&s=b37798a9dbd0c8884af2261b518970e3);
-	background-size: 100% 100%;
-	background-attachment: fixed;
-	background-repeat:no-repeat;
-	overflow: hidden;
-}
-#wd {
-	background-color: rgba(255,255,255,0.0);
-	font-family: Arial,"微软雅黑";
-	border: none;
-	height: 40px;
-	font-size: 30px;
-	margin: 15%;
-	text-align: center;
-	width: 70%;
-	transition: background 0.5s;
-	outline: none;
-}
-#wd:focus {
-	background-color: rgba(255,255,255,0.5);
-}
-#wd:hover {
-	background-color: rgba(255,255,255,0.5);
-}
-#s {
-	font-size: 20px;
-	padding: 5px;
-	display: none;
-}
-</style>
-</head>
-
-<body>
-<!--Please Use Console.-->
-<div id="d1">
-	<form action="http://www.baidu.com/s" method="get">
-		<input id="wd" name="wd" type="text" /><br>
-		<input id="s" type="submit" value="求知" />
-	</form>
-</div>
-<script>
-	window.onscroll = function() {
-		alert();
-	}
-	window.onload = setTimeout("document.getElementById('wd').focus()",500)
-	console.log('极简风格的搜索，带给您最初的纯净')
-	console.log('感谢:')
-	console.log('http://coding.net ','提供代码托管及域名服务')
-	console.log('http://unsplash.com ','提供背景图片')
-	console.log('%cDeveloped By FR','color: #159')
-	console.log('%cCopyRight 2015','color: #359')
-</script>
-</div>
-</body>
-</html>
+---
+layout: default
+title: �ҵ�Blog
+---
+<h2>{{ page.title }}</h2>
+<p>��������</p>
+<ul>
+{% for post in site.posts %}
+<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
