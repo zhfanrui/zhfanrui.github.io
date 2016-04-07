@@ -1,4 +1,0 @@
-markdown: kramdown
-highlighter: pygments
-permalink: /news/:year/:month/:day/:title/
-excerpt_separator: ""
