@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "ASM »ù´¡"
-subtitle:   "Ò»Á³ÃÈ±ÒµÄ»ã±à"
+title:      "ASM åŸºç¡€"
+subtitle:   "ä¸€è„¸èŒå¸çš„æ±‡ç¼–"
 date:       2016-4-9 00:34:07
 author:     "Stephen"
 header-img: "img/post-bg.jpg"
@@ -10,13 +10,13 @@ tags:
     - ASM
 ---
 
-## Êé¼®
-* ÍõË¬µÄ ASM ½Ì³Ì¡£
+## ä¹¦ç±
+* ç‹çˆ½çš„ ASM æ•™ç¨‹ã€‚
 
-## Èí¼ş
+## è½¯ä»¶
 * MASM
 * NASM
 
-## ±Ê¼Ç
+## ç¬”è®°
 
-## ²Î¿¼×ÊÁÏ
+## å‚è€ƒèµ„æ–™
