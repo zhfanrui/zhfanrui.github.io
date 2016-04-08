@@ -46,8 +46,10 @@ tags:
 	* Liquid 是网页模板语言，[后期我将进行总结]()。
 	* HTML5 Boilerplate 模板是关于目录结构的，[后期我将进行总结]()。
 * 再次我们看一下皮肤作者的原话
+
 > Theme 的 CSS 是基于 Bootstrap 定制的，看得不爽的地方直接在 Less 里改就好了（平时更习惯 SCSS 些），**不过其实我一直觉得 Bootstrap 在移动端的体验做得相当一般，比我在淘宝参与的团队 CSS 框架差多了……**所以为了体验，也补了不少 CSS 进去。
 * 本次修改并不完全，字体，图等没有做，预计于 V 2.0 版本完善。
+
 > 第二天考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
 
 ## 后记
