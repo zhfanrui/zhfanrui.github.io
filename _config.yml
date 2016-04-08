@@ -4,6 +4,14 @@ SEOTitle: 樊锐的博客 | FR Blog
 header-img: img/home-bg.jpg
 
 
+# SNS settings
+RSS: true
+#weibo_username:     huxpro
+#zhihu_username:     huxpro
+github_username:    zhfanrui
+#twitter_username:  huxpro
+#facebook_username:  huxpro
+
 
 #permalink: /news/:year/:month/:day/:title/
 excerpt_separator: ""
