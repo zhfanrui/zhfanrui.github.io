@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      "Markdown 语法"
+subtitle:   " Markdown"
+date:       2016-4-8 23:49:58
+author:     "Stephen"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - Markdown
+---
+
+
 # Cmd Markdown 简明语法手册
 
 标签： Cmd-Markdown
