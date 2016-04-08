@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Markdown Óï·¨"
-subtitle:   " Markdown"
+subtitle:   "Markdown"
 date:       2016-4-8 23:49:58
 author:     "Stephen"
 header-img: "img/post-bg-2015.jpg"
