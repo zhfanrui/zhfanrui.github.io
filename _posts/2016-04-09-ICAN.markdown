@@ -2,7 +2,7 @@
 layout:     post
 title:      "ICAN 比赛"
 subtitle:   "第二次做项目"
-date:       2016-4-9 00:34:07
+date:       2016-4-8 00:34:07
 author:     "Stephen"
 header-img: "img/post-bg.jpg"
 catalog: 	true
