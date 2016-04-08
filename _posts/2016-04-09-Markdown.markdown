@@ -4,8 +4,8 @@ title:      "Markdown Óï·¨"
 subtitle:   "Markdown"
 date:       2016-04-08 23:49:58
 author:     "Stephen"
-header-img: "img/post-bg-2015.jpg"
-catalog: true
+header-img: "img/post-bg.jpg"
+catalog: 	true
 tags:
     - Markdown
 ---
