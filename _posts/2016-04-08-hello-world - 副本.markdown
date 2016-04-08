@@ -2,12 +2,12 @@
 layout:     post
 title:      "Hello 2015"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2016-4-9 00:57:32
+date:       2016-04-09
 author:     "Stephen"
 header-img: "img/post-bg.jpg"
 catalog: 	true
 tags:
-    - 综述
+    - 智障
 ---
 
 
