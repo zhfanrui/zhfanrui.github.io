@@ -1,6 +1,6 @@
 # Site settings
 title: FR Blog             # 你的博客网站标题
-
+header-img: img/home-bg.jpg
 
 markdown: kramdown
 highlighter: rouge
