@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "ASM 基础"
+subtitle:   "一脸萌币的汇编"
+date:       2016-4-9 00:34:07
+author:     "Stephen"
+header-img: "img/post-bg.jpg"
+catalog: 	true
+tags:
+    - ASM
+---
+
+## 书籍
+* 王爽的 ASM 教程。
+
+## 软件
+* MASM
+* NASM
+
+## 笔记
+
+## 参考资料
