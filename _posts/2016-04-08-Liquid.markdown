@@ -8,7 +8,7 @@ header-img: "img/post-bg.jpg"
 catalog: 	true
 tags:
     - Liquid
-	- jekyll
+    - jekyll
 ---
 
 > 文章转自 [掌心](http://www.zhanxin.info/)，[Jekyll](http://jekyll.bootcss.com)
