@@ -3,7 +3,13 @@ layout:  post
 title:   "Native.js 的开发"
 subtitle:"HTML5 App 开发"
 date:    2016-04-08 23:58:32
-
+author:  "Stephen"
+header-img: "img/post-bg.jpg"
+catalog: true
+tag:
+    - NJS
+    - HTML5
+    - HTML
 ---
 
 > [NJS官方文档](http://ask.dcloud.net.cn/article/88)
