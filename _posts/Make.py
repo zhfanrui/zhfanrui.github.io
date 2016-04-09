@@ -4,11 +4,11 @@ import codecs
 
 t1=time.strftime("%Y-%m-")
 t2='%02d'%(int(time.strftime("%d"))-1)
-c=input('name')
+c=input('name：')
 name=t1+t2+'-'+c+'.markdown'
 fp=codecs.open(name,'w','utf-8')
-title=input('title')
-subtitle=input('subtitle')
+title=input('title：')
+subtitle=input('subtitle：')
 
 
 t3=time.strftime(" %H:%M:%S")
