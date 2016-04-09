@@ -39,6 +39,7 @@ NJS不再需要配置原生开发和编译环境，调试、打包均在HBuilder
 ### 判断平台
 
 Native API具有平台依赖性，所以需要通过以下方式判断当前的运行平台：
+
 ``` javascript
 function judgePlatform(){
     switch ( plus.os.name ) {
