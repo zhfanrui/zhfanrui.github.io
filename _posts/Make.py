@@ -19,7 +19,7 @@ layout:  post
 title:   "%s"
 subtitle:"%s"
 date:    %s
-auther:  "Stephen"
+author:  "Stephen"
 header-img: "img/post-bg.jpg"
 catalog: true
 tag:
