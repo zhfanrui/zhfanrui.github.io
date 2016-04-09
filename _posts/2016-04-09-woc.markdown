@@ -1,7 +1,7 @@
 ---
-layout:  post
-title:   "woc"
-subtitle:"woc"
+layout:   post
+title:    "woc"
+subtitle: "woc"
 date:       2016-04-08 00:00:01
 author:     "Stephen"
 
