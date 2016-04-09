@@ -38,7 +38,7 @@ NJS不再需要配置原生开发和编译环境，调试、打包均在HBuilder
 ### 判断平台
 
 Native API具有平台依赖性，所以需要通过以下方式判断当前的运行平台：
-```
+``` javascript
 function judgePlatform(){
     switch ( plus.os.name ) {
         case "Android":
@@ -55,7 +55,7 @@ function judgePlatform(){
 ```
 
 ### Hello World
-```
+``` javascript
 /**
  * 在Android平台通过NJS显示系统提示框
  */
@@ -76,10 +76,11 @@ function njsAlertForAndroid(){
 //...
 ```
 `注意：NJS代码中创建提示框构造对象要求传入程序全局环境对象，可通过plus.android.runtimeMainActivity()方法获取应用的主Activity对象，它是HTML5+应用运行期自动创建的程序全局环境对象。`
+
 `注意：其实HTML5+规范已经封装过原生提示框消息API：plus.ui.alert( message, alertCB, title, buttonCapture)。此处NJS的示例仅为了开发者方便理解，实际使用时调用plus.ui.alert更简单，性能也更高。`
 
 
-```
+``` javascript
 /**
  * 在iOS平台通过NJS显示系统提示框
  */
