@@ -1,7 +1,7 @@
 ---
 layout:    post
-title:     "LFS 新坑"
-subtitle:  "新坑啊新坑，感觉真的是坑"
+title:     "LFS 鏂板潙"
+subtitle:  "鏂板潙鍟婃柊鍧戯紝鎰熻鐪熺殑鏄潙"
 date:       2016-4-8 13:29:23
 auther: "Stephen"
 header-img: "img/post-bg.jpg"
