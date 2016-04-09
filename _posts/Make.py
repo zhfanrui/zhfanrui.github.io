@@ -15,11 +15,11 @@ t3=time.strftime(" %H:%M:%S")
 date=t1+t2+t3
 
 str='''---
-layout:  post
-title:   "%s"
-subtitle:"%s"
-date:    %s
-author:  "Stephen"
+layout:   post
+title:    "%s"
+subtitle: "%s"
+date:     %s
+author:   "Stephen"
 header-img: "img/post-bg.jpg"
 catalog: true
 tag:
