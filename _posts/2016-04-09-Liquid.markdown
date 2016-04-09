@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Jekyll »ù´¡"
-subtitle:   "¾²Ì¬²©¿ÍÓïÑÔ"
+title:      "Jekyll åŸºç¡€"
+subtitle:   "é™æ€åšå®¢è¯­è¨€"
 date:       2016-4-9 01:31:16
 author:     "Stephen"
 header-img: "img/post-bg.jpg"
@@ -11,20 +11,20 @@ tags:
 	- jekyll
 ---
 
-> ÎÄÕÂ×ª×Ô [ÕÆĞÄ](http://www.zhanxin.info/)£¬[Jekyll](http://jekyll.bootcss.com)
+> æ–‡ç« è½¬è‡ª [æŒå¿ƒ](http://www.zhanxin.info/)ï¼Œ[Jekyll](http://jekyll.bootcss.com)
 
-## 1. »ù´¡Ê¹ÓÃ
-[Jekyll ½Ì³Ì¶ş£º»ù´¡Ê¹ÓÃ](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-basic-usage.html)
+## 1. åŸºç¡€ä½¿ç”¨
+[Jekyll æ•™ç¨‹äºŒï¼šåŸºç¡€ä½¿ç”¨](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-basic-usage.html)
 
-## 2. Ä¿Â¼½á¹¹
-[Jekyll ½Ì³ÌÈı£ºÄ¿Â¼½á¹¹](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-directory-structure.html)
+## 2. ç›®å½•ç»“æ„
+[Jekyll æ•™ç¨‹ä¸‰ï¼šç›®å½•ç»“æ„](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-directory-structure.html)
 
-## 3. ÅäÖÃÎÄ¼ş
+## 3. é…ç½®æ–‡ä»¶
 
-[Jekyll ½Ì³ÌËÄ£ºÅäÖÃÎÄ¼ş](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-configuration.html)
+[Jekyll æ•™ç¨‹å››ï¼šé…ç½®æ–‡ä»¶](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-configuration.html)
 
-## 4. ³£ÓÃ±äÁ¿
-[Jekyll ½Ì³ÌÎå£º³£ÓÃ±äÁ¿](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-variables.html)
+## 4. å¸¸ç”¨å˜é‡
+[Jekyll æ•™ç¨‹äº”ï¼šå¸¸ç”¨å˜é‡](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-variables.html)
 
-## 5. ÅäÖÃ²Î¿¼
-[¹Ù·½·­ÒëÎÄµµ](http://jekyll.bootcss.com/docs/configuration/)
+## 5. é…ç½®å‚è€ƒ
+[å®˜æ–¹ç¿»è¯‘æ–‡æ¡£](http://jekyll.bootcss.com/docs/configuration/)
