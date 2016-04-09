@@ -8,8 +8,8 @@ header-img: "img/post-bg.jpg"
 catalog: true
 tag:
     - NJS
-	- HTML5
-	- HTML
+    - HTML5
+    - HTML
 ---
 > [NJS官方文档](http://ask.dcloud.net.cn/article/88)
 > [5+ App开发Native.js入门指南](http://ask.dcloud.net.cn/article/88)
