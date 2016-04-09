@@ -1,0 +1,14 @@
+---
+layout:    post
+title:     "LFS 新坑"
+subtitle:  "新坑啊新坑，感觉真的是坑"
+date:       2016-4-8 13:29:23
+auther: "Stephen"
+header-img: "img/post-bg.jpg"
+catalog: true
+tag:
+    - LFS
+	- Linux
+---
+# What is LFS
+LFS 
