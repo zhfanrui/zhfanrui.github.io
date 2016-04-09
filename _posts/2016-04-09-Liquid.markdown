@@ -1,0 +1,30 @@
+---
+layout:     post
+title:      "Jekyll 基础"
+subtitle:   "静态博客语言"
+date:       2016-4-9 01:31:16
+author:     "Stephen"
+header-img: "img/post-bg.jpg"
+catalog: 	true
+tags:
+    - Liquid
+	- jekyll
+---
+
+> 文章转自 [掌心](http://www.zhanxin.info/)，[Jekyll](http://jekyll.bootcss.com)
+
+## 1. 基础使用
+[Jekyll 教程二：基础使用](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-basic-usage.html)
+
+## 2. 目录结构
+[Jekyll 教程三：目录结构](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-directory-structure.html)
+
+## 3. 配置文件
+
+[Jekyll 教程四：配置文件](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-configuration.html)
+
+## 4. 常用变量
+[Jekyll 教程五：常用变量](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-variables.html)
+
+## 5. 配置参考
+[官方翻译文档](http://jekyll.bootcss.com/docs/configuration/)
