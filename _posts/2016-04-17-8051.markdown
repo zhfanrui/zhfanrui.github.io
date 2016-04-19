@@ -45,18 +45,76 @@ tag:
 
 #### 端口 3
 
-| 位 | 信号名 | 位地址 | 功能 |
-|---|---|---|---|
-| P3.0 | RXD | B0H |接受串行端口数据|
-| P3.1 | TXD | B1H |发送串行端口数据|
-| P3.2 | -INT0 | B1H |外部中断0|
-| P3.3 | -INT1 | B2H |外部中断1|
-| P3.4 | T0| B4H|定时器/计数器外部输入0|
-| P3.5 | T1| B4H|定时器/计数器外部输入1|
-| P3.6|-WR|B6H|外部数据存储器写|
-| P3.7|RD|B7H|外部数据存储器读|
-| P1.0|T2|90H|定时器/计数器2外部输入|
-| P1.1|T2EX|91H|定时器/计数器2捕获/重载|
+
+<table>
+   <tr>
+      <td>位</td>
+      <td>信号名</td>
+      <td>位地址</td>
+      <td>功能</td>
+   </tr>
+   <tr>
+      <td>P3.0</td>
+      <td>RXD</td>
+      <td>B0H</td>
+      <td>接受串行端口数据</td>
+   </tr>
+   <tr>
+      <td>P3.1</td>
+      <td>TXD</td>
+      <td>B1H</td>
+      <td>发送串行端口数据</td>
+   </tr>
+   <tr>
+      <td>P3.2</td>
+      <td>-INT0</td>
+      <td>B1H</td>
+      <td>外部中断0</td>
+   </tr>
+   <tr>
+      <td>P3.3</td>
+      <td>0</td>
+      <td>B2H</td>
+      <td>外部中断1</td>
+   </tr>
+   <tr>
+      <td>P3.4</td>
+      <td>T0</td>
+      <td>B4H</td>
+      <td>定时器/计数器外部输入0</td>
+   </tr>
+   <tr>
+      <td>P3.5</td>
+      <td>T1</td>
+      <td>B4H</td>
+      <td>定时器/计数器外部输入1</td>
+   </tr>
+   <tr>
+      <td>P3.6</td>
+      <td>-WR</td>
+      <td>B6H</td>
+      <td>外部数据存储器写</td>
+   </tr>
+   <tr>
+      <td>P3.7</td>
+      <td>RD</td>
+      <td>B7H</td>
+      <td>外部数据存储器读</td>
+   </tr>
+   <tr>
+      <td>P1.0</td>
+      <td>T2</td>
+      <td>90H</td>
+      <td>定时器/计数器2外部输入</td>
+   </tr>
+   <tr>
+      <td>P1.1</td>
+      <td>T2EX</td>
+      <td>91H</td>
+      <td>定时器/计数器2捕获/重载</td>
+   </tr>
+</table>
+
 
 #### PSEN
 
