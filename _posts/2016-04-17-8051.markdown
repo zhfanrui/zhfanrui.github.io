@@ -12,7 +12,7 @@ tag:
 
 # 单片机初步
 
-*The 8051 Microcintroller (4th Edition)* 
+> The 8051 Microcintroller (4th Edition)
 
 ## 8051 微控制器基本结构
 
@@ -207,6 +207,7 @@ tag:
 </table>
 
 辅助进位标志
+
 进行 BCD 码的加减法时，如果位3向位4有进位或借位，或者低4位的值在0AH-0FH之间时 AC 置1。
 
 
