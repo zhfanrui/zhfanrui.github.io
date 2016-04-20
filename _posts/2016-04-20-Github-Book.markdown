@@ -108,7 +108,9 @@ tag:
 
 *   [OpenWrt智能、自动、透明翻墙路由器教程](//link.zhihu.com/?target=http%3A//softwaredownload.gitbooks.io/openwrt-fanqiang/)
 
-## 语言相关类 AWK
+# 语言相关类
+
+## AWK
 
 *   [awk程序设计语言](//link.zhihu.com/?target=http%3A//awk.readthedocs.org/en/latest/)
 
@@ -389,6 +391,7 @@ tag:
 *   [Vim中文文档](//link.zhihu.com/?target=https%3A//github.com/vimcn/vimcdoc)
 
 ## 读书笔记及其它
+
 ### 读书笔记
 
 *   [编译原理（紫龙书）中文第2版习题答案](//link.zhihu.com/?target=https%3A//github.com/fool2fish/dragon-book-exercise-answers)
