@@ -46,12 +46,13 @@ tag:
 #### 端口 3
 
 
+
 <table>
    <tr>
-      <td>位</td>
-      <td>信号名</td>
-      <td>位地址</td>
-      <td>功能</td>
+      <th>位</th>
+      <th>信号名</th>
+      <th>位地址</th>
+      <th>功能</th>
    </tr>
    <tr>
       <td>P3.0</td>
@@ -67,7 +68,7 @@ tag:
    </tr>
    <tr>
       <td>P3.2</td>
-      <td>-INT0</td>
+      <td><my:o>INT0</my:o></td>
       <td>B1H</td>
       <td>外部中断0</td>
    </tr>
@@ -91,7 +92,7 @@ tag:
    </tr>
    <tr>
       <td>P3.6</td>
-      <td>-WR</td>
+      <td><my:o>WR</my:o></td>
       <td>B6H</td>
       <td>外部数据存储器写</td>
    </tr>
