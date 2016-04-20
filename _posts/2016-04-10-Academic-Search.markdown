@@ -16,4 +16,4 @@ tag:
 
 ## 学术搜索
 
-国内检索用的[百度学术](http://xueshu.baidu.com/)比较全，国外则是大名鼎鼎的[Google 学术](https://scholar.google.com/)，但是有与总所周知的原因，Google 无法在中国使用，所以还有一个选择就是[微软学术搜索](http://www.bing.com/academic/)，也算是一个折中的选择吧。
+国内检索用的[百度学术](http://xueshu.baidu.com/)比较全，国外则是大名鼎鼎的[Google 学术](https://scholar.google.com/)，但是由与总所周知的原因，Google 无法在中国使用，所以还有一个选择就是[微软学术搜索](http://www.bing.com/academic/)，也算是一个折中的选择吧。
