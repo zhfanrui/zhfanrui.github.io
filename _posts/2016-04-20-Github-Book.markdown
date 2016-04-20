@@ -1,0 +1,411 @@
+---
+layout:   post
+title:    "Github 开源电子书"
+subtitle: "转自知乎"
+date:     2016-04-20 00:01:13
+author:   "Stephen"
+header-img: "img/post-bg.jpg"
+catalog: true
+tag:
+    - Books
+    - Github
+---
+
+# 语言无关类
+
+## 操作系统
+
+*   [鸟哥的Linux私房菜](//link.zhihu.com/?target=http%3A//vbird.dic.ksu.edu.tw/) (简体)
+*   [Linux 系统高级编程](//link.zhihu.com/?target=http%3A//sourceforge.net/apps/trac/elpi/wiki/ALP)
+*   [The Linux Command Line](//link.zhihu.com/?target=http%3A//billie66.github.io/TLCL/index.html) (中英文版)
+*   [Linux 设备驱动](//link.zhihu.com/?target=http%3A//oss.org.cn/kernel-book/ldd3/index.html) (第三版)
+*   [深入分析Linux内核源码](//link.zhihu.com/?target=http%3A//www.kerneltravel.net/kernel-book/%25E6%25B7%25B1%25E5%2585%25A5%25E5%2588%2586%25E6%259E%2590Linux%25E5%2586%2585%25E6%25A0%25B8%25E6%25BA%2590%25E7%25A0%2581.html)
+*   [UNIX TOOLBOX](//link.zhihu.com/?target=http%3A//cb.vu/unixtoolbox_zh_CN.xhtml)
+*   [Docker中文指南](//link.zhihu.com/?target=https%3A//github.com/widuu/chinese_docker)
+*   [Docker —— 从入门到实践](//link.zhihu.com/?target=https%3A//github.com/yeasy/docker_practice)
+*   [FreeRADIUS新手入门](//link.zhihu.com/?target=http%3A//freeradius.akagi201.org/)
+*   [Mac 开发配置手册](//link.zhihu.com/?target=http%3A//aaaaaashu.gitbooks.io/mac-dev-setup/content/)
+*   [FreeBSD 使用手册](//link.zhihu.com/?target=https%3A//www.freebsd.org/doc/zh_CN/books/handbook/index.html)
+*   [Linux 命令行(中文版)](//link.zhihu.com/?target=http%3A//billie66.github.io/TLCL/book/)
+
+## 智能系统
+
+*   [一步步搭建物联网系统](//link.zhihu.com/?target=https%3A//github.com/gmszone/designiot)
+
+## web服务器
+
+*   [Nginx开发从入门到精通](//link.zhihu.com/?target=http%3A//tengine.taobao.org/book/index.html) (淘宝团队出品)
+
+## 版本控制
+
+*   [Git教程](//link.zhihu.com/?target=http%3A//www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) （本文由 [@廖雪峰](//link.zhihu.com/?target=http%3A//weibo.com/liaoxuefeng) 创作，如果觉得本教程对您有帮助，可以去 [iTunes](//link.zhihu.com/?target=https%3A//itunes.apple.com/cn/app/git-jiao-cheng/id876420437) 购买）
+*   [git – 简易指南](//link.zhihu.com/?target=http%3A//rogerdudler.github.io/git-guide/index.zh.html)
+*   [猴子都能懂的GIT入门](//link.zhihu.com/?target=http%3A//backlogtool.com/git-guide/cn/)
+*   [Git 参考手册](//link.zhihu.com/?target=http%3A//gitref.justjavac.com/)
+*   [Pro Git](//link.zhihu.com/?target=http%3A//git-scm.com/book/zh)
+*   [Git Magic](//link.zhihu.com/?target=http%3A//www-cs-students.stanford.edu/%257Eblynn/gitmagic/intl/zh_cn/)
+*   [GotGitHub](//link.zhihu.com/?target=http%3A//www.worldhello.net/gotgithub/index.html)
+*   [Git Community Book 中文版](//link.zhihu.com/?target=http%3A//gitbook.liuhui998.com/index.html)
+*   [Mercurial 使用教程](//link.zhihu.com/?target=http%3A//mercurial.selenic.com/wiki/ChineseTutorial)
+*   [HgInit (中文版)](//link.zhihu.com/?target=http%3A//bucunzai.net/hginit/)
+*   [沉浸式学 Git](//link.zhihu.com/?target=http%3A//igit.linuxtoy.org/)
+*   [Git-Cheat-Sheet](//link.zhihu.com/?target=https%3A//github.com/flyhigher139/Git-Cheat-Sheet) （感谢 @flyhigher139 翻译了中文版）
+*   [GitHub秘籍](//link.zhihu.com/?target=http%3A//snowdream86.gitbooks.io/github-cheat-sheet/content/zh/index.html)
+
+## NoSQL
+
+*   [NoSQL数据库笔谈](//link.zhihu.com/?target=http%3A//www.yankay.com/wp-content/NoSql_Database_Note.html) ([PDF](//link.zhihu.com/?target=http%3A//yankaycom-wordpress.stor.sinaapp.com/uploads/2012/12/NoSQL%25E6%2595%25B0%25E6%258D%25AE%25E5%25BA%2593%25E7%25AC%2594%25E8%25B0%2588v2.pdf))
+*   [Redis 设计与实现](//link.zhihu.com/?target=http%3A//www.redisbook.com/en/latest/)
+*   [Redis 命令参考](//link.zhihu.com/?target=http%3A//www.redisdoc.com/en/latest/)
+*   [带有详细注释的 Redis 3.0 代码](//link.zhihu.com/?target=https%3A//github.com/huangz1990/redis-3.0-annotated)
+*   [带有详细注释的 Redis 2.6 代码](//link.zhihu.com/?target=https%3A//github.com/huangz1990/annotated_redis_source)
+*   [The Little MongoDB Book](//link.zhihu.com/?target=https%3A//github.com/justinyhuang/the-little-mongodb-book-cn/blob/master/mongodb.md)
+*   [The Little Redis Book](//link.zhihu.com/?target=https%3A//github.com/JasonLai256/the-little-redis-book/blob/master/cn/redis.md)
+*   [Neo4j 简体中文手册 v1.8](//link.zhihu.com/?target=http%3A//docs.neo4j.org.cn/)
+*   [Neo4j .rb 中文資源](//link.zhihu.com/?target=http%3A//neo4j.tw/)
+
+## MySQL
+
+*   [MySQL索引背后的数据结构及算法原理](//link.zhihu.com/?target=http%3A//www.cnblogs.com/leoo2sk/archive/2011/07/10/mysql-index.html)
+
+## 项目相关
+
+*   [持续集成（第二版）](//link.zhihu.com/?target=http%3A//article.yeeyan.org/view/2251/94882) (译言网)
+*   [让开发自动化系列专栏](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/java/j-ap/)
+*   [追求代码质量](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/java/j-cq/)
+*   [selenium 中文文档](//link.zhihu.com/?target=https%3A//github.com/fool2fish/selenium-doc)
+*   [Joel谈软件](//link.zhihu.com/?target=http%3A//local.joelonsoftware.com/wiki/Chinese_%2528Simplified%2529)
+*   [約耳談軟體(Joel on Software)](//link.zhihu.com/?target=http%3A//local.joelonsoftware.com/wiki/%25E9%25A6%2596%25E9%25A0%2581)Web
+
+*   [关于浏览器和网络的 20 项须知](//link.zhihu.com/?target=http%3A//www.20thingsilearned.com/zh-CN/home)
+*   [前端知识体系](//link.zhihu.com/?target=http%3A//knowledge.ecomfe.com/)
+*   [浏览器开发工具的秘密](//link.zhihu.com/?target=http%3A//jinlong.github.io/2013/08/29/devtoolsecrets/)
+*   [Chrome 开发者工具中文手册](//link.zhihu.com/?target=https%3A//github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
+*   [Chrome扩展开发文档](//link.zhihu.com/?target=http%3A//open.chrome.360.cn/extension_dev/overview.html)
+*   [Grunt中文文档](//link.zhihu.com/?target=http%3A//www.gruntjs.org/)
+*   [移动Web前端知识库](//link.zhihu.com/?target=https%3A//github.com/AlloyTeam/Mars)
+*   [正则表达式30分钟入门教程](//link.zhihu.com/?target=http%3A//deerchao.net/tutorials/regex/regex.htm)
+*   [前端开发体系建设日记](//link.zhihu.com/?target=https%3A//github.com/fouber/blog/issues/2)
+*   [移动前端开发收藏夹](//link.zhihu.com/?target=https%3A//github.com/hoosin/mobile-web-favorites)
+*   [JSON风格指南](//link.zhihu.com/?target=https%3A//github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md)
+*   [HTTP 接口设计指北](//link.zhihu.com/?target=https%3A//github.com/bolasblack/http-api-guide)
+*   [前端资源分享（一）](//link.zhihu.com/?target=https%3A//github.com/hacke2/hacke2.github.io/issues/1)
+*   [前端资源分享（二）](//link.zhihu.com/?target=https%3A//github.com/hacke2/hacke2.github.io/issues/3)
+*   [前端代码规范 及 最佳实践](//link.zhihu.com/?target=http%3A//coderlmn.github.io/code-standards/)
+*   [w3school教程整理](//link.zhihu.com/?target=http%3A//www.flygon.net/archives/427)
+
+## 大数据
+
+*   [大数据/数据挖掘/推荐系统/机器学习相关资源](//link.zhihu.com/?target=https%3A//github.com/Flowerowl/Big-Data-Resources)
+
+## 编程艺术
+
+*   [程序员编程艺术](//link.zhihu.com/?target=https%3A//github.com/julycoding/The-Art-Of-Programming-by-July)
+*   [每个程序员都应该了解的内存知识(译)](//link.zhihu.com/?target=http%3A//www.oschina.net/translate/what-every-programmer-should-know-about-memory-part1%3Fprint)【第一部分】
+*   [取悦的工序：如何理解游戏](//link.zhihu.com/?target=http%3A//read.douban.com/ebook/4972883/) (豆瓣阅读，免费书籍)
+
+## 其他
+
+*   [OpenWrt智能、自动、透明翻墙路由器教程](//link.zhihu.com/?target=http%3A//softwaredownload.gitbooks.io/openwrt-fanqiang/)
+
+## 语言相关类 AWK
+
+*   [awk程序设计语言](//link.zhihu.com/?target=http%3A//awk.readthedocs.org/en/latest/)
+
+## C/C++
+
+*   [C++ 并发编程指南](//link.zhihu.com/?target=https%3A//github.com/forhappy/A-Detailed-Cplusplus-Concurrency-Tutorial) ([@傅海平ICT](//link.zhihu.com/?target=http%3A//weibo.com/1702076100))
+*   [Linux C编程一站式学习](//link.zhihu.com/?target=http%3A//akaedu.github.io/book/) (宋劲杉, 北京亚嵌教育研究中心)
+*   [CGDB中文手册](//link.zhihu.com/?target=https%3A//github.com/leeyiw/cgdb-manual-in-chinese)
+*   [100个gdb小技巧](//link.zhihu.com/?target=https%3A//github.com/hellogcc/100-gdb-tips/blob/master/src/index.md)
+*   [100个gcc小技巧](//link.zhihu.com/?target=https%3A//github.com/hellogcc/100-gcc-tips/blob/master/src/index.md)
+*   [ZMQ 指南](//link.zhihu.com/?target=https%3A//github.com/anjuke/zguide-cn)
+*   [How to Think Like a Computer Scientist](//link.zhihu.com/?target=http%3A//www.ituring.com.cn/book/1203) (中英文版)
+*   [跟我一起写Makefile(PDF)](//link.zhihu.com/?target=http%3A//scc.qibebt.cas.cn/docs/linux/base/%25B8%25FA%25CE%25D2%25D2%25BB%25C6%25F0%25D0%25B4Makefile-%25B3%25C2%25F0%25A9.pdf)
+*   [GNU make中文手册](//link.zhihu.com/?target=http%3A//www.yayu.org/book/gnu_make/)
+*   [GNU make 指南](//link.zhihu.com/?target=http%3A//docs.huihoo.com/gnu/linux/gmake.html)
+*   [Google C++ 风格指南](//link.zhihu.com/?target=http%3A//zh-google-styleguide.readthedocs.org/en/latest/google-cpp-styleguide/contents/)
+*   [C/C++ Primer](//link.zhihu.com/?target=https%3A//github.com/andycai/cprimer) (by @andycai)
+*   [简单易懂的C魔法](//link.zhihu.com/?target=http%3A//www.nowamagic.net/librarys/books/contents/c)
+*   [Cmake 实践](//link.zhihu.com/?target=http%3A//sewm.pku.edu.cn/src/paradise/reference/CMake%2520Practice.pdf) (PDF版)
+*   [C++ FAQ LITE(中文版)](//link.zhihu.com/?target=http%3A//www.sunistudio.com/cppfaq/)
+*   [C++ Primer 5th Answers](//link.zhihu.com/?target=https%3A//github.com/Mooophy/Cpp-Primer)
+
+## CSS/HTML
+
+*   [学习CSS布局](//link.zhihu.com/?target=http%3A//zh.learnlayout.com/)
+*   [通用 CSS 笔记、建议与指导](//link.zhihu.com/?target=https%3A//github.com/chadluo/CSS-Guidelines/blob/master/README.md)
+*   [CSS参考手册](//link.zhihu.com/?target=http%3A//css.doyoe.com/)
+*   [Emmet 文档](//link.zhihu.com/?target=http%3A//yanxyz.github.io/emmet-docs/)
+*   [前端代码规范](//link.zhihu.com/?target=http%3A//alloyteam.github.io/code-guide/) (腾讯alloyteam团队)
+
+## Dart
+
+*   [Dart 语言导览](//link.zhihu.com/?target=http%3A//dart.lidian.info/wiki/Language_Tour)
+
+## Fortran
+
+*   [Fortran77和90/95编程入门](//link.zhihu.com/?target=http%3A//micro.ustc.edu.cn/Fortran/ZJDing/)
+
+## Java
+
+*   [实时 Java 系列](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/java/j-rtj/%3Fca%3Dj-h-p)
+*   [Apache Shiro 用户指南](//link.zhihu.com/?target=https%3A//github.com/waylau/apache-shiro-1.2.x-reference)
+*   使用 Eclipse 和 Java SE 6 创建独立 Web Services 应用程序
+
+    *   [第 1 部分: Web Services 服务端应用程序](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/webservices/ws-eclipse-javase1/index.html)
+    *   [第 2 部分: Web 服务客户端应用程序](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/webservices/tutorials/ws-jse/index.html)
+*   JavaServer Faces 1.2 入门
+
+    *   [第 1 部分: 构建基本应用程序](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/java/j-jsf1/index.html)
+    *   [第 2 部分: JSF 生命周期、转换、检验和阶段监听器](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/java/j-jsf2/index.html)
+*   用 Eclipse Europa 进行 Web 开发
+
+    *   [第 1 部分: Eclipse Java EE](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-eclipse-europa1/index.html)
+    *   [第 2 部分: PHP 开发工具](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-eclipse-europa2/index.html)
+    *   [第 3 部分: Ruby Development Toolkit 和 RadRails](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-eclipse-europa3/index.html)
+*   使用 JavaServer Faces 构建 Apache Geronimo 应用程序
+
+    *   [第 1 部分: 使用 Eclipse 和 Apache MyFaces Core 构建基本的应用程序](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-jsf1/index.html)
+    *   [第 2 部分: 在 JavaServer Faces 中使用 Tomahawk](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-jsf2/index.html)
+    *   [第 3 部分: 使用 ajax4jsf 添加 Ajax 功能](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-jsf3/index.html)
+    *   [第 4 部分: 使用 Apache Trinidad 组件扩展 JSF](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-jsf4/index.html)
+    *   [第 5 部分: 将 JSF 应用程序与 Spring 集成](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-jsf5/index.html)
+*   Apache Geronimo 和 Spring 框架
+
+    *   [第 1 部分: 开发方法学](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-springframe1/index.html)
+    *   [第 2 部分: 构建第一个应用程序](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-springframe2/index.html)
+    *   [第 3 部分: 集成 DAO 与 ORM](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-springframe3/index.html)
+    *   [第 4 部分: 混合使用 Spring AOP 和 Spring Web Flow](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-springframe4/index.html)
+    *   [第 5 部分: Spring MVC](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-springframe5/os-ag-springframe5.html)
+    *   [第 6 部分: Spring MVC：使用 Web 视图技术](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/opensource/os-ag-springframe6/index.html)
+*   终极 mashup —— Web 服务和语义 Web
+
+    *   [第 1 部分: 使用与组合 Web 服务](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/xml/x-ultimashup1/index.html)
+    *   [第 2 部分: 管理 Mashup 数据缓存](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/xml/x-ultimashup2/index.html)
+    *   [第 3 部分: 理解 RDF 和 RDFs](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/xml/x-ultimashup3/index.html)
+    *   [第 4 部分: 创建本体](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/xml/x-ultimashup4/index.html)
+    *   [第 5 部分: 切换 Web 服务](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/education/xml/x-ultimashup5/index.html)
+*   [Jersey 2.x 用户指南](//link.zhihu.com/?target=https%3A//github.com/waylau/Jersey-2.x-User-Guide)
+*   [MyBatis中文文档](//link.zhihu.com/?target=http%3A//mybatis.github.io/mybatis-3/zh/index.html)
+
+## JavaScript
+
+*   [Google JavaScript 代码风格指南](//link.zhihu.com/?target=http%3A//chajn.org/jsguide/javascriptguide.html)
+*   [Airbnb JavaScript 规范](//link.zhihu.com/?target=https%3A//github.com/adamlu/javascript-style-guide)
+*   [JavaScript 标准参考教程（alpha）](//link.zhihu.com/?target=http%3A//javascript.ruanyifeng.com/)
+*   [Javascript编程指南](//link.zhihu.com/?target=http%3A//pij.robinqu.me/) ([源码](//link.zhihu.com/?target=https%3A//github.com/RobinQu/Programing-In-Javascript))
+*   [javascript 的 12 个怪癖](//link.zhihu.com/?target=https%3A//github.com/justjavac/12-javascript-quirks)
+*   [JavaScript 秘密花园](//link.zhihu.com/?target=http%3A//bonsaiden.github.io/JavaScript-Garden/zh/)
+*   [JavaScript核心概念及实践](//link.zhihu.com/?target=http%3A//icodeit.org/jsccp/) (PDF) (此书已由人民邮电出版社出版发行，但作者依然免费提供PDF版本，希望开发者们去购买，支持作者)
+*   [《JavaScript 模式》](//link.zhihu.com/?target=https%3A//github.com/cutsin/javascript-patterns)翻译，此书中文版有售，但是纸质书翻译的还没有这个版本翻译的好
+*   [命名函数表达式探秘](//link.zhihu.com/?target=http%3A//justjavac.com/named-function-expressions-demystified.html) (注:原文由[为之漫笔](//link.zhihu.com/?target=http%3A//www.cn-cuckoo.com/)翻译，原始地址无法打开，所以此处地址为我博客上的备份)
+*   [学用 JavaScript 设计模式](//link.zhihu.com/?target=http%3A//www.oschina.net/translate/learning-javascript-design-patterns) (开源中国)
+*   [深入理解JavaScript系列](//link.zhihu.com/?target=http%3A//www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
+*   [ECMAScript 6 入门](//link.zhihu.com/?target=http%3A//es6.ruanyifeng.com/) (作者：阮一峰)
+*   jQuery
+
+    *   [jQuery 解构](//link.zhihu.com/?target=http%3A//www.cn-cuckoo.com/deconstructed/jquery.html)
+    *   [简单易懂的JQuery魔法](//link.zhihu.com/?target=http%3A//www.nowamagic.net/librarys/books/contents/jquery)
+    *   [How to write jQuery plugin](//link.zhihu.com/?target=http%3A//i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html)
+*   Node.js
+
+    *   [Node入门](//link.zhihu.com/?target=http%3A//www.nodebeginner.org/index-zh-cn.html)
+    *   [七天学会NodeJS](//link.zhihu.com/?target=http%3A//nqdeng.github.io/7-days-nodejs/)
+    *   [Nodejs Wiki Book](//link.zhihu.com/?target=https%3A//github.com/nodejs-tw/nodejs-wiki-book) (繁体中文)
+    *   [express.js 中文文档](//link.zhihu.com/?target=http%3A//expressjs.jser.us/)
+    *   [koa 中文文档](//link.zhihu.com/?target=https%3A//github.com/turingou/koa-guide)
+    *   [使用 Express + MongoDB 搭建多人博客](//link.zhihu.com/?target=https%3A//github.com/nswbmw/N-blog)
+    *   [Express框架](//link.zhihu.com/?target=http%3A//javascript.ruanyifeng.com/nodejs/express.html)
+    *   [nodejs文档](//link.zhihu.com/?target=https%3A//www.gitbook.io/book/0532/nodejs)
+    *   [Node.js 包教不包会](//link.zhihu.com/?target=https%3A//github.com/alsotang/node-lessons)
+    *   [Learn You The Node.js For Much Win! (中文版)](//link.zhihu.com/?target=https%3A//www.npmjs.org/package/learnyounode-zh-cn)
+    *   [Node debug 三法三例](//link.zhihu.com/?target=http%3A//i5ting.github.io/node-debug-tutorial/)
+*   underscore.js
+
+    *   [Underscore.js中文文档](//link.zhihu.com/?target=http%3A//learningcn.com/underscore/)
+*   backbone.js
+
+    *   [backbone.js入门教程](//link.zhihu.com/?target=http%3A//www.the5fire.com/backbone-js-tutorials-pdf-download.html) (PDF)
+    *   [Backbone.js入门教程第二版](//link.zhihu.com/?target=https%3A//github.com/the5fire/backbonejs-learning-note)
+    *   [Developing Backbone.js Applications(中文版)](//link.zhihu.com/?target=http%3A//feliving.github.io/developing-backbone-applications)
+*   AngularJS
+
+    *   [AngularJS最佳实践和风格指南](//link.zhihu.com/?target=https%3A//github.com/mgechev/angularjs-style-guide/blob/master/README-zh-cn.md)
+    *   [AngularJS中译本](//link.zhihu.com/?target=https%3A//github.com/peiransun/angularjs-cn)
+    *   [AngularJS入门教程](//link.zhihu.com/?target=https%3A//github.com/zensh/AngularjsTutorial_cn)
+    *   [构建自己的AngularJS](//link.zhihu.com/?target=https%3A//github.com/xufei/Make-Your-Own-AngularJS/blob/master/01.md)
+    *   [在Windows环境下用Yeoman构建AngularJS项目](//link.zhihu.com/?target=http%3A//www.waylau.com/build-angularjs-app-with-yeoman-in-windows/)
+*   [zepto 简明中文手册](//link.zhihu.com/?target=http%3A//www.360weboy.com/handbook/zepto/index.html)
+*   Sea.js
+
+    *   [Hello Sea.js](//link.zhihu.com/?target=http%3A//island205.github.io/HelloSea.js/)
+*   CoffeeScript
+
+    *   [CoffeeScript Cookbook](//link.zhihu.com/?target=http%3A//island205.github.io/coffeescript-cookbook.github.com/)
+    *   [The Little Book on CoffeeScript中文版](//link.zhihu.com/?target=http%3A//island205.github.io/tlboc/)
+*   ExtJS
+
+    *   [Ext4.1.0 中文文档](//link.zhihu.com/?target=http%3A//extjs-doc-cn.github.io/ext4api/)
+*   [Chrome扩展及应用开发](//link.zhihu.com/?target=http%3A//www.ituring.com.cn/minibook/950)
+*   [JavaScript入门教程](//link.zhihu.com/?target=http%3A//siberiawolf.com/free_programming/book/LearningJavaScript01.pdf)
+
+## PHP
+
+*   [PHP调试技术手册](//link.zhihu.com/?target=http%3A//www.laruence.com/2010/06/21/1608.html)(PDF)
+*   [XDebug 2中文手册(译)](//link.zhihu.com/?target=http%3A//www.blogkun.com/project.html) (CHM)
+*   [PHP之道](//link.zhihu.com/?target=http%3A//wulijun.github.io/php-the-right-way/)
+*   [PHP 最佳实践](//link.zhihu.com/?target=https%3A//github.com/justjavac/PHP-Best-Practices-zh_CN)
+*   [PHP安全最佳实践](//link.zhihu.com/?target=http%3A//www.blogkun.com/php/2013/12/21/php-security-best-practices/)
+*   [深入理解PHP内核](//link.zhihu.com/?target=https%3A//github.com/reeze/tipi)
+*   [PHP扩展开发及内核应用](//link.zhihu.com/?target=http%3A//www.walu.cc/phpbook/)
+*   [CodeIgniter 用户指南](//link.zhihu.com/?target=http%3A//codeigniter.org.cn/user_guide/index.html)
+*   [Laravel4 中文文档](//link.zhihu.com/?target=http%3A//www.golaravel.com/docs/)
+*   [Laravel 入门](//link.zhihu.com/?target=https%3A//github.com/huanghua581/laravel-getting-started)
+*   [Symfony2中文文档](//link.zhihu.com/?target=http%3A//symfony-docs-chs.readthedocs.org/en/latest/) (未译完)
+*   [Phalcon中文文档](//link.zhihu.com/?target=http%3A//phalcon.5iunix.net/)（翻译进行中）
+*   [YiiBook几本Yii框架的在线教程](//link.zhihu.com/?target=http%3A//yiibook.com/)
+*   [简单易懂的PHP魔法](//link.zhihu.com/?target=http%3A//www.nowamagic.net/librarys/books/contents/php)
+*   [swoole文档及入门教程](//link.zhihu.com/?target=https%3A//github.com/LinkedDestiny/swoole-doc)
+
+## iOS
+
+*   [iOS开发60分钟入门](//link.zhihu.com/?target=https%3A//github.com/qinjx/30min_guides/blob/master/ios.md)
+*   [iOS7人机界面指南](//link.zhihu.com/?target=http%3A//isux.tencent.com/ios-human-interface-guidelines-ui-design-basics-ios7.html)
+*   [Google Objective-C Style Guide 中文版](//link.zhihu.com/?target=http%3A//zh-google-styleguide.readthedocs.org/en/latest/google-objc-styleguide/)
+*   [iPhone 6 屏幕揭秘](//link.zhihu.com/?target=http%3A//wileam.com/iphone-6-screen-cn/)
+*   [Apple Watch开发初探](//link.zhihu.com/?target=http%3A//nilsun.github.io/apple-watch/)
+*   [马上着手开发 iOS 应用程序](//link.zhihu.com/?target=https%3A//developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOSCh/index.html)
+*   [网易斯坦福大学公开课：iOS 7应用开发字幕文件](//link.zhihu.com/?target=https%3A//github.com/jkyin/Subtitle)
+
+## Android
+
+*   [Android Design(中文版)](//link.zhihu.com/?target=http%3A//www.apkbus.com/design/index.html)
+*   [Google Android官方培训课程中文版](//link.zhihu.com/?target=http%3A//hukai.me/android-training-course-in-chinese/index.html)
+*   [Android学习之路](//link.zhihu.com/?target=http%3A//stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/)
+
+## Python
+
+*   [小白的Python教程](//link.zhihu.com/?target=http%3A//www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
+*   [简明Python教程](//link.zhihu.com/?target=http%3A//woodpecker.org.cn/abyteofpython_cn/chinese/)
+*   [零基础学Python](//link.zhihu.com/?target=http%3A//looly.gitbooks.io/python-basic)
+*   [Python 2.7 官方教程中文版](//link.zhihu.com/?target=http%3A//www.pythondoc.com/pythontutorial27/index.html)
+*   [Python 3.3 官方教程中文版](//link.zhihu.com/?target=http%3A//www.pythondoc.com/pythontutorial3/index.html)
+*   [深入 Python 3](//link.zhihu.com/?target=http%3A//sebug.net/paper/books/dive-into-python3/)
+*   [PEP8 Python代码风格规范](//link.zhihu.com/?target=https%3A//code.google.com/p/zhong-wiki/wiki/PEP8)
+*   [Google Python 风格指南 中文版](//link.zhihu.com/?target=http%3A//zh-google-styleguide.readthedocs.org/en/latest/google-python-styleguide/)
+*   [Python入门教程](//link.zhihu.com/?target=http%3A//liam0205.me/2013/11/02/Python-tutorial-zh_cn/) ([PDF](//link.zhihu.com/?target=http%3A//liam0205.me/attachment/Python/The_Python_Tutorial_zh-cn.pdf))
+*   [Python的神奇方法指南](//link.zhihu.com/?target=http%3A//article.yeeyan.org/view/311527/287706)
+*   [笨办法学 Python](//link.zhihu.com/?target=http%3A//sebug.net/paper/books/LearnPythonTheHardWay/) （[PDF](//link.zhihu.com/?target=http%3A//liam0205.me/attachment/Python/PyHardWay/Learn_Python_The_Hard_Way_zh-cn.pdf)版下载）
+*   [Django 文档中文版](//link.zhihu.com/?target=http%3A//django-chinese-docs.readthedocs.org/en/latest/)
+*   [Django 最佳实践](//link.zhihu.com/?target=https%3A//github.com/brantyoung/zh-django-best-practices)
+*   [The Django Book 中文版](//link.zhihu.com/?target=http%3A//djangobook.py3k.cn/2.0/)
+*   [web.py 0.3 新手指南](//link.zhihu.com/?target=http%3A//webpy.org/tutorial3.zh-cn)
+*   [Web.py Cookbook 简体中文版](//link.zhihu.com/?target=http%3A//webpy.org/cookbook/index.zh-cn)
+*   [Dive Into Python 中文版](//link.zhihu.com/?target=http%3A//woodpecker.org.cn/diveintopython/)
+*   [Bottle 文档中文版](//link.zhihu.com/?target=https%3A//associates.amazon.cn/gp/associates/network/main.html) (需翻墙)
+*   [Flask 文档中文版](//link.zhihu.com/?target=http%3A//docs.jinkan.org/docs/flask/)
+*   [Jinja2 文档中文版](//link.zhihu.com/?target=http%3A//docs.jinkan.org/docs/jinja2/)
+*   [Werkzeug 文档中文版](//link.zhihu.com/?target=http%3A//werkzeug-docs-cn.readthedocs.org/zh_CN/latest/)
+*   [Flask之旅](//link.zhihu.com/?target=http%3A//spacewander.github.io/explore-flask-zh)
+*   [Introduction to Tornado 中文翻译](//link.zhihu.com/?target=http%3A//demo.pythoner.com/itt2zh/index.html)
+*   [Python自然语言处理中文版](//link.zhihu.com/?target=http%3A//pan.baidu.com/s/1qW4pvnY) （感谢陈涛同学的翻译，也谢谢 [@shwley](//link.zhihu.com/?target=https%3A//github.com/shwley) 联系了作者）
+*   [Python 绘图库 matplotlib 官方指南中文翻译](//link.zhihu.com/?target=http%3A//liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)
+*   [Scrapy 0.25 文档](//link.zhihu.com/?target=http%3A//scrapy-chs.readthedocs.org/zh_CN/latest/)
+*   [ThinkPython](//link.zhihu.com/?target=https%3A//github.com/carfly/thinkpython-cn)
+
+## Ruby
+
+*   [Ruby 风格指南](//link.zhihu.com/?target=https%3A//github.com/JuanitoFatas/ruby-style-guide/blob/master/README-zhCN.md)
+*   [Rails 风格指南](//link.zhihu.com/?target=https%3A//github.com/JuanitoFatas/rails-style-guide/blob/master/README-zhCN.md)
+*   [笨方法學 Ruby](//link.zhihu.com/?target=http%3A//lrthw.github.io/)
+*   [Ruby on Rails 指南](//link.zhihu.com/?target=http%3A//guides.ruby-china.org/)
+*   [Ruby on Rails 實戰聖經](//link.zhihu.com/?target=http%3A//ihower.tw/rails4/index.html)
+*   [Ruby on Rails Tutorial 原书第 2 版](//link.zhihu.com/?target=http%3A//railstutorial-china.org/) (本书网页版免费提供，电子版以 PDF、EPub 和 Mobi 格式提供购买，仅售 9.9 美元)
+*   [编写Ruby的C拓展](//link.zhihu.com/?target=http%3A//wusuopu.gitbooks.io/write-ruby-extension-with-c/content/)
+*   [Ruby 源码解读](//link.zhihu.com/?target=https%3A//ruby-china.org/topics/22386)
+
+## Shell
+
+*   [Shell脚本编程30分钟入门](//link.zhihu.com/?target=https%3A//github.com/qinjx/30min_guides/blob/master/shell.md)
+
+## Go
+
+*   [Go编程基础](//link.zhihu.com/?target=https%3A//github.com/Unknwon/go-fundamental-programming)
+*   [Go入门指南](//link.zhihu.com/?target=https%3A//github.com/Unknwon/the-way-to-go_ZH_CN)
+*   [学习Go语言](//link.zhihu.com/?target=http%3A//mikespook.com/learning-go/) ([PDF](//link.zhihu.com/?target=http%3A//xxiyy.qiniudn.com/%25E5%25AD%25A6%25E4%25B9%25A0%2520Go%2520%25E8%25AF%25AD%25E8%25A8%2580%2528Golang%2529.pdf%3Fdownload))
+*   [Go Web 编程](//link.zhihu.com/?target=https%3A//github.com/astaxie/build-web-application-with-golang) (此书已经出版，希望开发者们去购买，支持作者的创作)
+*   [Go实战开发](//link.zhihu.com/?target=https%3A//github.com/astaxie/Go-in-Action) (当我收录此项目时，作者已经写完第三章，如果读完前面章节觉得有帮助，可以给作者[捐赠](//link.zhihu.com/?target=https%3A//me.alipay.com/astaxie)，以鼓励作者的继续创作)
+*   [Network programming with Go 中文翻译版本](//link.zhihu.com/?target=https%3A//github.com/astaxie/NPWG_zh)
+
+## Groovy
+
+*   [实战 Groovy 系列](//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/java/j-pg/)
+
+## LaTeX
+
+*   [一份其实很短的 LaTeX 入门文档](//link.zhihu.com/?target=http%3A//liam0205.me/2014/09/08/latex-introduction/)
+*   [一份不太简短的 LATEX 2ε 介绍](//link.zhihu.com/?target=http%3A//www.mohu.org/info/lshort-cn.pdf) （PDF版）
+
+## LISP
+
+*   [ANSI Common Lisp 中文翻譯版](//link.zhihu.com/?target=http%3A//acl.readthedocs.org/en/latest/)
+
+## Lua
+
+*   [Lua编程入门](//link.zhihu.com/?target=https%3A//github.com/andycai/luaprimer)
+
+## Haskell
+
+*   [Real World Haskell 中文版](//link.zhihu.com/?target=http%3A//rwh.readthedocs.org/en/latest/)
+
+## R
+
+*   [R语言忍者秘笈](//link.zhihu.com/?target=https%3A//github.com/yihui/r-ninja)
+
+## Scala
+
+*   [Scala课堂](//link.zhihu.com/?target=http%3A//twitter.github.io/scala_school/zh_cn/index.html) (Twitter的Scala中文教程)
+*   [Effective Scala](//link.zhihu.com/?target=http%3A//twitter.github.io/effectivescala/index-cn.html)(Twitter的Scala最佳实践的中文翻译)
+*   [Scala指南](//link.zhihu.com/?target=http%3A//zh.scala-tour.com/)
+
+## Swift
+
+*   [The Swift Programming Language 中文版](//link.zhihu.com/?target=http%3A//numbbbbb.github.io/the-swift-programming-language-in-chinese/)
+
+## Perl
+
+*   [Modern Perl 中文版](//link.zhihu.com/?target=https%3A//github.com/horus/modern_perl_book)
+*   [Perl 程序员应该知道的事](//link.zhihu.com/?target=http%3A//perl.linuxtoy.org/)
+
+## Prolog
+
+*   [笨办法学Prolog](//link.zhihu.com/?target=http%3A//fengdidi.github.io/blog/2011/11/15/qian-yan/)
+*   [Vim中文文档](//link.zhihu.com/?target=https%3A//github.com/vimcn/vimcdoc)
+
+## Vimscript
+
+*   [笨方法学Vimscript 中译本](//link.zhihu.com/?target=http%3A//learnvimscriptthehardway.onefloweroneworld.com/)
+*   [Vim中文文档](//link.zhihu.com/?target=https%3A//github.com/vimcn/vimcdoc)
+
+## 读书笔记及其它
+### 读书笔记
+
+*   [编译原理（紫龙书）中文第2版习题答案](//link.zhihu.com/?target=https%3A//github.com/fool2fish/dragon-book-exercise-answers)
+*   [把《编程珠玑》读薄](//link.zhihu.com/?target=http%3A//hawstein.com/posts/make-thiner-programming-pearls.html)
+*   [Effective C++读书笔记](//link.zhihu.com/?target=https%3A//github.com/XiaolongJason/ReadingNote/blob/master/Effective%2520C%252B%252B/Effective%2520C%252B%252B.md)
+*   [Golang 学习笔记、Python 学习笔记、C 学习笔记](//link.zhihu.com/?target=https%3A//github.com/qyuhen/book) (PDF)
+*   [Jsoup 学习笔记](//link.zhihu.com/?target=https%3A//github.com/code4craft/jsoup-learning)
+*   [学习笔记: Vim、Python、memcached](//link.zhihu.com/?target=https%3A//github.com/lzjun567/note)
+*   [图灵开放书翻译计划–C++、Python、Java等](//link.zhihu.com/?target=http%3A//www.ituring.com.cn/activity/details/2004)
+*   [蒂姆·奥莱利随笔](//link.zhihu.com/?target=http%3A//g.yeeyan.org/books/2095) （由译言网翻译，电子版免费）
+*   [Octave 入门](//link.zhihu.com/?target=http%3A//coer.zju.edu.cn/liu/octave-tutorial-cn.pdf) （PDF版）
+*   [SICP 解题集](//link.zhihu.com/?target=http%3A//sicp.readthedocs.org/en/latest/)
+*   [精彩博客集合](//link.zhihu.com/?target=https%3A//github.com/hacke2/hacke2.github.io/issues/2)
+*   [正则表达式简明参考](//link.zhihu.com/?target=http%3A//www.xiaoleilu.com/regex-guide/)
+
+### 测试相关
+
+*   [移动APP自动化测试优秀框架Appium API Reference V1.2.0 CN](//link.zhihu.com/?target=http%3A//appium.io/slate/cn/v1.2.0/)
+
+
