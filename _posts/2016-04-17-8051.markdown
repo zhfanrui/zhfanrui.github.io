@@ -63,25 +63,25 @@ tag:
       <td>P3.2</td>
       <td><my:o>INT0</my:o></td>
       <td>B1H</td>
-      <td>外部中断0</td>
+      <td>外部中断 0</td>
    </tr>
    <tr>
       <td>P3.3</td>
       <td><my:o>INT1</my:o></td>
       <td>B2H</td>
-      <td>外部中断1</td>
+      <td>外部中断 1</td>
    </tr>
    <tr>
       <td>P3.4</td>
       <td>T0</td>
       <td>B4H</td>
-      <td>定时器/计数器外部输入0</td>
+      <td>定时器/计数器外部输入 0</td>
    </tr>
    <tr>
       <td>P3.5</td>
       <td>T1</td>
       <td>B4H</td>
-      <td>定时器/计数器外部输入1</td>
+      <td>定时器/计数器外部输入 1</td>
    </tr>
    <tr>
       <td>P3.6</td>
@@ -157,31 +157,49 @@ tag:
       <td>PSW.6</td>
       <td>AC</td>
       <td>D6H</td>
-      <td>辅助进位标志？</td>
+      <td>辅助进位标志（见下）</td>
    </tr>
    <tr>
       <td>PSW.5</td>
       <td>F0</td>
       <td>D5H</td>
-      <td>标志0</td>
+      <td>标志 0</td>
    </tr>
    <tr>
       <td>PSW.4</td>
       <td>RS1</td>
       <td>D4H</td>
-      <td>寄存器组选择位0</td>
+      <td>寄存器组选择位 0</td>
    </tr>
    <tr>
       <td>PSW.3</td>
       <td>RS0</td>
       <td>D3H</td>
-      <td>寄存器组选择位1</td>
+      <td>寄存器组选择位 1</td>
    </tr>
    <tr>
       <td></td>
       <td></td>
+      <td>0 0</td>
+      <td>默认寄存器 0</td>
+   </tr>
+   <tr>
       <td></td>
       <td></td>
+      <td>0 1</td>
+      <td>寄存器 1</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td>1 0</td>
+      <td>寄存器 2</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td>1 1</td>
+      <td>寄存器 3</td>
    </tr>
    <tr>
       <td>PSW.2</td>
