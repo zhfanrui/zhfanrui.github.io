@@ -17,7 +17,8 @@ tag:
 
 
 # 单片机初步
----
+======
+*The 8051 Microcintroller (4th Edition)* 
 
 ## 8051 微控制器基本结构
 
