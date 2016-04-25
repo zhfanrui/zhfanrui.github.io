@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 化用
-description: 个人典藏列表
+title: 鍖栫敤
+description: 涓汉鍏歌棌鍒楄〃
 ---
 
 ## Blog
 
-- [独立写生](http://cnfeat.com/)
-- [阮一峰](http://www.ruanyifeng.com/home.html)
+- [鐙珛鍐欑敓](http://cnfeat.com/)
+- [闃竴宄癩(http://www.ruanyifeng.com/home.html)
 - []()
 - []()
 - []()
@@ -15,9 +15,9 @@ description: 个人典藏列表
 
 ## Media
 
-- [少数派](http://sspai.com/)
-- [小众软件](http://www.appinn.com/)
-- [异次元软件世界](http://www.iplaysoft.com/)
+- [灏戞暟娲綸(http://sspai.com/)
+- [灏忎紬杞欢](http://www.appinn.com/)
+- [寮傛鍏冭蒋浠朵笘鐣宂(http://www.iplaysoft.com/)
 - []()
 - []()
 - []()
@@ -25,9 +25,9 @@ description: 个人典藏列表
 
 ## APP
 
-- Nano 桌面
+- Nano 妗岄潰
 - AcDisplay
-- 咕咚翻译
+- 鍜曞挌缈昏瘧
 - 
 
 
