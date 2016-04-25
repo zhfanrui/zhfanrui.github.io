@@ -1,6 +1,6 @@
 ---
-layout: page
-title: 化用
+layout: defualt
+title: list
 description: 个人典藏列表
 ---
 
