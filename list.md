@@ -1,6 +1,6 @@
 ---
 layout: default
-title: list
+title: List
 description: 个人典藏列表
 ---
 <!-- Page Header -->
@@ -19,7 +19,9 @@ description: 个人典藏列表
 </header>
 
 
-
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 ## Blog
 
 - [独立写生](http://cnfeat.com/)
@@ -47,4 +49,9 @@ description: 个人典藏列表
 - 
 
 
-##
+## Font
+
+
+        </div>
+    </div>
+</div>
