@@ -1,0 +1,99 @@
+---
+layout:   post
+title:    "Python Programming"
+subtitle: "进阶教程总结"
+date:     2016-05-02 10:32:07
+author:   "Stephen"
+header-img: "img/post-bg.jpg"
+catalog: true
+tag:
+    - Python
+---
+
+## 数据库
+
+### 生成器表达式
+
+### 列表解析
+
+### 循环
+
+``` python
+for (x, y) in record: # record 是一个二维数组
+    pass
+```
+
+### __name__
+
+### map
+
+``` python
+pays = map((lambda x: x[2]), people)
+```
+
+
+### zip
+
+``` python
+fields = ['name', 'age', 'job']
+values = ['sue', 45, 'hdw']
+zip(fields, values)
+```
+
+### dict
+
+``` python
+dict(zip(fields, values)
+```
+
+### .formkey()
+
+``` python
+fields = ('name', 'age', 'job')
+record = dict.fromkey(fields, '?')
+print(record)
+```
+结果为字典，且每一个值都为'?', 初始化使用。
+
+### pprint
+
+使输出更容易理解。
+
+### 类 SQL 查询语句
+
+``` python
+G = [rec['name'] for rec in people if rec['age'] >= 45 else 'Youth']
+
+G = [(rec['name'] if rec['age'] >= 45 else 'Youth') for rec in people]
+```
+
+### **Pickle**
+
+``` python
+import pickle
+
+dbfile = open(filename, 'rb')
+db = pickle.load(dbfile)
+dbfile.close()
+
+db['sue']['pay'] *= 1.10
+
+dbfile = open(filename, 'wb')
+pickle.dump(db, dbfile)
+dbfile.close()
+```
+
+提高效率：每条记录为一个单独的文件。
+
+
+
+### glob
+
+``` python
+glob.glob('*.pkl')
+```
+
+
+### **shelves**
+
+
