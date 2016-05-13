@@ -1,0 +1,11 @@
+---
+layout:   post
+title:    "Python ku TKInker"
+subtitle: "Python GUI"
+date:     2016-05-07 14:31:26
+author:   "Stephen"
+header-img: "img/post-bg.jpg"
+catalog: true
+tag:
+    - 
+---
