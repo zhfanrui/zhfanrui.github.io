@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "Python ku TKInker"
+title:    "Python 库 TKInker"
 subtitle: "Python GUI"
 date:     2016-05-07 14:31:26
 author:   "Stephen"
