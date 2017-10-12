@@ -15,18 +15,16 @@ tag:
 
 ### APS 数据子层服务
 - APSDE-DATA
-    - request 请求一个从本地NHLE到一个或多个对等NHLE实体传输一个NHLEPDU（ASDU）
+    - request 请求一个从本地NHLE到一个或多个对等NHLE实体传输一个NHLEPDU（ASDU）。
     - confirm 报告请求从一个本地NHLE传输一个数据PDU（ASDU）到一个对等NHLE的结果。
     - indication 表示从APS子层传输一个数据PDU（ASDU）到本地应用实体。
 
 ### 管理服务
 - APSME-BIND
-    - request 允许上层通过在其本地绑定表中创建一个实体，请求把两个设备绑定到一
-起，或绑定一个设备到一个组。
+    - request 允许上层通过在其本地绑定表中创建一个实体，请求把两个设备绑定到一起，或绑定一个设备到一个组。
     - confirm 允许上层被通知其直接或代理请求绑定两个设备，或绑定一个设备到一个组的结果。
 - APSME-UNBIND
-    - request 允许上层通过移除其本地绑定表中的一个实体，请求取消绑定两个设备，
-或从组中取消绑定一个设备。
+    - request 允许上层通过移除其本地绑定表中的一个实体，请求取消绑定两个设备，或从组中取消绑定一个设备。
     - confirm 允许上层被通知其请求取消绑定两个设备，或从一个组中取消绑定一个设备的结果。
 - APSME-GET
     - request 允许上层从AIB中读取一个属性的值。
