@@ -1,0 +1,182 @@
+---
+layout:   post
+title:    "ZigBee 规范"
+subtitle: "各层原语类型及其功能概述"
+date:     2017-10-05 15:11:14
+author:   "Stephen"
+header-img: "img/post-bg.jpg"
+catalog: true
+tag:
+    - ZigBee
+---
+# ZigBee各层原语类型及其功能概述
+
+## APL
+
+### APS 数据子层服务
+- APSDE-DATA
+    - request 请求一个从本地NHLE到一个或多个对等NHLE实体传输一个NHLEPDU（ASDU）
+    - confirm 报告请求从一个本地NHLE传输一个数据PDU（ASDU）到一个对等NHLE的结果。
+    - indication 表示从APS子层传输一个数据PDU（ASDU）到本地应用实体。
+
+### 管理服务
+- APSME-BIND
+    - request 允许上层通过在其本地绑定表中创建一个实体，请求把两个设备绑定到一
+起，或绑定一个设备到一个组。
+    - confirm 允许上层被通知其直接或代理请求绑定两个设备，或绑定一个设备到一个组的结果。
+- APSME-UNBIND
+    - request 允许上层通过移除其本地绑定表中的一个实体，请求取消绑定两个设备，
+或从组中取消绑定一个设备。
+    - confirm 允许上层被通知其请求取消绑定两个设备，或从一个组中取消绑定一个设备的结果。
+- APSME-GET
+    - request 允许上层从AIB中读取一个属性的值。
+    - confirm 报告尝试从AIB中读取一个属性值的结果。
+- APSME-SET
+    - request 允许上层往AIB写入一个属性值。
+    - confirm 报告尝试为一个AIB属性写入一个值的结果。
+- APSME-ADD-GROUP
+    - request 允许上层为某个特定端点请求往某个特定的组增加组成员。
+    - confirm 允许上层被通知其请求给一个端点增加一个组的结果。
+- APSME-REMOVE-GROUP
+    - request 允许上层请求移除某个特定端点的某个组中的组成员。
+    - confirm 允许上层被通知其请求从一个端点移除一个组的结果。
+- APSME-REMOVE-ALL-GROUPS
+    - request 由上层生成，当它希望从一个端点移除所有组的成员时，这样不再有送到那些组的帧被传送到该端点。
+    - confirm 允许上层被通知其请求从一个端点移除所有组的结果。
+
+
+
+## NWK
+
+### 数据服务
+- NLDE-DATA
+    - request 请求传输一个数据PDU（NSDU），从本地APS子层实体到一个或多个对等的APS
+子层实体。
+    - confirm 请求从一个本地APS子层实体到一个对等APS子层实体，传输一个数据PDU
+（NSDU）的结果。
+    - indication 表示从NWK层到本地APS子层实体传输一个数据PDU（NSDU）。
+
+### 管理服务
+- NLME-NETWORK-DISCOVERY
+    - request 支持网络层上层应用该原语来发现在POS范围内正在运行的网络。
+    - confirm 报告一个网络发现操作的结果。
+- NLME-NETWORK-FORMATION
+    - request 允许上层请求设备启动一个新的ZigBee网络，以它本身作为协调器，并随后修改其超帧的配置。
+    - confirm 报告请求在一个网络中初始化一个ZigBee协调器的结果。
+- NLME-PERMIT-JOINING
+    - request 当可以接受设备加入其网络时，本原语允许一个ZigBee协调器或路由器的上层设置其MAC子层的连接允许标志，并保持一段固定的时间。
+    - confirm 允许一个ZigBee协调器或路由器的上层被告知其请求允许接受设备加入网络的结果。
+- NLME-START-ROUTER
+    - request 允许上层ZigBee路由器，开始从事期望作为一个ZigBee路由器的活动，包括为数据帧寻找路由，路由发现和从其它设备接收加入网络的请求。
+    - confirm 报告请求初始化或修改一个ZigBee路由器的结果。
+- NLME-ED-SCAN
+    - request 允许设备上层要求一个能量检测去评估本地的信道。
+    - confirm 提供给上层能量扫描的结果。
+- NLME-JOIN
+    - request 允许设备上层通过该原语以直接或间接方式请求连接网络，或者当设备为孤点设备时，请求重新连接网络。或者在一个网络中为设备改变操作的信道。
+    - indication 允许一个ZigBee协调器或ZigBee路由器的上层得到通知，当一个新设备通过连接，或使用NWK重新加入程序重新加入，成功加入它的网络。
+- NLME-DIRECT-JOIN
+    - request 允许一个ZigBee协调器或路由器的上层请求直接纳入另一个设备到它的网络。
+    - confirm 允许一个ZigBee协调器或路由器的上层被告知其请求直接纳入另一个设备到其网络的结果。
+- NLME-LEAVE
+    - request 允许上层请求它或另一个设备离开网络。
+    - confirm 允许发起设备的上层被告知其请求自身或另一个设备离开网络的结果。
+    - indication 如果ZigBee设备已经离开网络，或一个相邻设备已经离开网络，本原语允许一个ZigBee设备的上层收到通知。
+- NLME-RESET
+    - request 允许上层请求NWK层执行一个复位操作。
+    - confirm 允许上层被告知其请求复位NWK层的结果。
+- NLME-SYNC
+    - request 设备应用层使用该原语与ZigBee协调器或路由器进行同步，或从它的ZigBee协调器或路由器中得到数据。
+    - confirm 允许上层被告知其请求同步或从其ZigBee协调器或路由器中提取数据的结果。
+- NLME-SYNC-LOSS
+    - indication 向上层通告MAC子层丢失网络同步信号。
+- NLME-GET
+    - request 允许上层从NIB中读取一个属性的值。
+    - confirm 报告尝试从NIB中读取一个属性值的结果。
+- NLME-SET
+    - request 允许上层往NIB中写入一个属性的值。
+    - confirm 报告尝试给一个NIB属性写入一个值的结果。
+- NLME-NWK-STATUS
+    - indication 允许上层被告知通过网络的失败。
+- NLME-ROUTE-DISCOVERY
+    - request 允许上层发起路由发现。
+    - confirm 通知上层关于尝试发起路由发现的结果。
+
+
+## MAC
+
+### 服务原语
+
+- MCPS-DATA
+    - request 从本地SSCS实体向一个对等的SSCS实体发送SPDU（即MAC服务数据单元MSDU）。
+    - confirm 对request原语做出响应。
+- MCPS-PURGE
+    - request 允许更高层向MAC层请求撤销事务队列中的数据发送事务。
+    - confirm 对request原语做出响应。
+
+### 管理服务
+
+- MLME-START
+    - request 请求设备开始新的超帧配置。
+    - confirm 对request原语做出响应。
+- MLME-BEACON-NOTIFY
+    - indication 把MAC层接收到的信标帧的信息参数传递给上层，同时发送了数据包链路质量（LQ）的测量和信标帧接收时间。
+- MLME-SCAN
+    - request 按照指定的信道列表启动信道扫描。
+    - confirm 对request原语做出响应。
+- MLME-GTS
+    - request 用设备用以向PAN协调器请求分配一个GTS或撤销已分配的GTS。
+    - indication 该描述符具有已分配的GTS特征和请求设备的短地址码。
+    - confirm 该设备即可开始使用GTS方式工作。
+- MLME-ASSOCIATE
+    - request 允许设备请求关联到一个协调器。
+    - indication 接收到关联请求命令后，向上层发出关联指示原语。
+    - response 收到关联指示原语后，协调器上层将通过算法来决定接收或拒绝设备的关联请求并发送该原语。
+- MLME-DISASSOCIATE
+    - request 一个关联设备离开PAN网络，发送该原语至协调器。
+    - indication 收到解关联命令后，向上层发送该原语并通告解关联原因。
+- MLME-SYNC
+    - request 原语通过获得或追踪（如果指定的话）信标帧来请求与协调器取得同步。
+- MLME-SNCY-LOSS
+    - indication 表明设备与协调器失去同步。
+- MLME-ORPHAN-NOTIFY
+    - indication 由协调器的MLME层产生，在协调器收到孤立设备发出的孤立通知命令后，该原语会被发送到上层以指示一个孤立设备的存在。
+    - response 接收到孤立指示原语后，上层判断该孤立设备之前是否曾与协调器关联，并向MLME发送带有判断结果的孤立响应原语。
+- MLME-POLL
+    - request 从协调器中请求数据。
+    - indication 向上层报告收到的MSDU。
+- MLME-RX-ENABLE
+    - request 原语允许MAC层向上层请求在一定的时间内使能接收机。
+- MLME-COMM-STATUS
+    - indication 由MLME产生，并发送到上层。
+- MLME-GET
+    - request 请求原语由高层产生，并发送到MLME层，以请求设置指定的MAC PIB属性。
+- MLME-RESET
+    - request 由上层产生，并发送到MLME以请求MAC子层重新设置到其初始状态。
+
+
+
+
+## PHY
+### 数据服务
+- PD-DATA
+    - request 请求发送MPDU（即物理层服务数据单元 PSDU）。
+    - confirm 对request原语做出响应。
+    - indication 指示一个MPDU（即PSDU）从物理层传送到本地MAC层实体。
+
+### 管理服务
+- PLME-CCA
+    - request 请求物理层管理实体（PLME）执行空闲信道评估（CCA）。
+    - confirm 对request原语做出响应。
+- PLME-ED
+    - request 请求物理层管理实体（PLME）执行能量检测（ED）。
+    - confirm 对request原语做出响应。
+- PLME-GET
+    - request 向物理层管理实体（PLME）请求物理层 PIB 相关属性的值。
+    - confirm 对request原语做出响应。
+- PLME-SET
+    - request 向物理层管理实体（PLME）请求设置物理层 PIB 相关属性的值。
+    - confirm 对request原语做出响应。
+- PLME-SET-TRX-STATE
+    - request 向物理层管理实体（PLME）请求改变收发机内部工作状态。
+    - confirm 对request原语做出响应。
