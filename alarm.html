@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alarm</title>
+</head>
+<body>
+<script type="text/javascript">
+	function notify() {
+		if(window.Notification && Notification.permission !== "denied") {
+			Notification.requestPermission().then(function(permission) {
+				new Notification("30分钟过去了，起来活动一下。喝个水，闭会眼，然后坐直！")
+			})
+		}
+	}
+
+	notify()
+	setInterval("notify()", 30 * 60 * 1000);
+	
+</script>
+</body>
+</html>
